@@ -14,16 +14,17 @@
   }
 
   img {
-    height: auto;
-    width: auto;
+    height: 70px;
+    width: 190px;
     max-height: 70px;
-    max-width: 220px;
+    max-width: 190px;
     object-fit: contain;
   }
 
   h3 {
+    margin-bottom: 0px;
+    padding: 20px;
     border-bottom: 1px solid $border;
-    padding: 20px
   }
 
   figure {
@@ -33,38 +34,42 @@
   .items {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: start;
     justify-content: center;
+    padding: 3px 0 5px 0;
   }
 
   .logo {
     flex: 0;
+    margin: 0 20px 20px 20px;
+  }
+  .sponsor {
     margin: 20px;
+    padding: 20px;
+    box-shadow: 1px 1px 4px #DDE8F1;
   }
 
   .platinum {
     img {
-      max-height: 45px;
-      max-width: 225px;
-    }
-
-    figure {
-      height: 45px;
+      max-height: 100px;
+      max-width: 190px;
+      width: 190px;
+      height: 60px;
     }
 
     .sponsor {
       display: flex;
       flex: 0;
-      flex-basis: 313px;
+      flex-basis: 270px;
       flex-direction: column;
-      align-content: center;
+      align-content: start;
       align-items: center;
-      justify-content: center;
-      padding: 20px 20px;
+      justify-content: start;
       text-align: center;
     }
     p {
       max-width: 300px;
+      margin-bottom: 0;
     }
   }
 
@@ -76,26 +81,5 @@
     h2 {
       margin-top: 60px;
     }
-  }
-
-  .sponsor-phusion img {
-    height: 50px;
-  }
-  .sponsor-youngcapital img {
-    height: 80px;
-    max-height: 80px;
-  }
-  .sponsor-salonized img {
-    height: 30px;
-  }
-  .sponsor-balsamiq img {
-    max-height: 55px;
-  }
-  .sponsor-talent img {
-    max-height: 55px;
-  }
-  .sponsor-gitlab img {
-    height: 100px;
-    max-height: 100px;
   }
 }
